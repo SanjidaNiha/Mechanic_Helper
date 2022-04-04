@@ -1,0 +1,101 @@
+/* 
+theme: mechanic helper website admin;
+version:1.0;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    float:none;
+    clear:both;
+}
+.tbl-full{
+    width: 100%;
+}
+.tbl-30{
+    width:30%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding:1%;
+}
+.btn-primary{
+    background-color: #1e90ff;
+    text-decoration: none;
+    color:white;
+    padding:1%;
+    font-weight:bold;
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+.btn-secondary{
+    background-color:#1dd1a1;
+    text-decoration: none;
+    color:black;
+    padding:1%;
+    font-weight:bold;
+}
+.btn-secondary:hover{
+    background-color:#10ac84;
+}
+.btn-danger{
+    background-color:#e84118;
+    text-decoration: none;
+    color:white;
+    padding:1%;
+    font-weight:bold;
+}
+.btn-danger:hover{
+    background-color:#c23616;
+}
+/*css for navbar*/
+.nav{
+    border-bottom: 1px solid black;
+}
+.nav ul{
+    list-style-type:none;
+}
+.nav ul li{
+    display: inline;
+    padding: 1%;
+}
+.nav ul li a{
+    text-decoration:none;
+    font-weight: bold;
+    color: #556b2f;
+}
+.nav ul li a:hover{
+    color: #006400;
+}
+/*css for main content*/
+.main-content{
+    background-color:#b2bec3;
+    padding:3% 0;
+}
+.col-4{
+    width: 10%;
+    background-color: white;
+    margin:1%;
+    padding:2%;
+    float: left;
+}
+/*css for footer*/
+.footer{
+    background-color:#556b2f;
+    color: white;
+}
